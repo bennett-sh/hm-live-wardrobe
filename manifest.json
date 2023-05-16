@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "BSh.LiveWardrobe",
 	"name": "Live Wardrobe",
 	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
@@ -14,5 +14,6 @@
 			"UI_OPEN_WARDROBE": "Open Wardrobe"
 		}
 	},
-	"frameworkVersion": "2.25.0"
+	"frameworkVersion": "2.25.1",
+	"updateCheck": "https://github.com/bennett-sh/hm-live-wardrobe/releases/latest/download/updates.json"
 }
