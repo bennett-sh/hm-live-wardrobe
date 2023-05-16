@@ -5,16 +5,16 @@ dependencies:
     specifier: ^10.2.4
     version: 10.2.4
   quickentity-script:
-    specifier: ^2.0.1
-    version: 2.0.1
+    specifier: ^2.1.0
+    version: 2.1.0
   repository-script:
     specifier: ^1.0.15
     version: 1.0.15
 
 devDependencies:
   '@types/node':
-    specifier: ^20.1.4
-    version: 20.1.4
+    specifier: ^20.1.5
+    version: 20.1.5
   concurrently:
     specifier: ^8.0.1
     version: 8.0.1
@@ -53,8 +53,8 @@ packages:
     dev: false
     optional: true
 
-  /@types/node@20.1.4:
-    resolution: {integrity: sha512-At4pvmIOki8yuwLtd7BNHl3CiWNbtclUbNtScGx4OHfBd4/oWoJC8KRCIxXwkdndzhxOsPXihrsOoydxBjlE9Q==}
+  /@types/node@20.1.5:
+    resolution: {integrity: sha512-IvGD1CD/nego63ySR7vrAKEX3AJTcmrAN2kn+/sDNLi1Ff5kBzDeEdqWDplK+0HAEoLYej137Sk0cUU8OLOlMg==}
     dev: true
 
   /abbrev@1.1.1:
@@ -273,7 +273,7 @@ packages:
       foreground-child: 3.1.1
       jackspeak: 2.2.0
       minimatch: 9.0.0
-      minipass: 6.0.0
+      minipass: 6.0.1
       path-scurry: 1.9.1
     dev: false
 
@@ -366,8 +366,8 @@ packages:
       brace-expansion: 2.0.1
     dev: false
 
-  /minipass@6.0.0:
-    resolution: {integrity: sha512-mvD5U4pUen1aWcjTxUgdoMg6PB98dcV0obc/OiPzls79++IpgNoO+MCbOHRlKfWIOvjIjmjUygjZmSStP7B0Og==}
+  /minipass@6.0.1:
+    resolution: {integrity: sha512-Tenl5QPpgozlOGBiveNYHg2f6y+VpxsXRoIHFUVJuSmTonXRAE6q9b8Mp/O46762/2AlW4ye4Nkyvx0fgWDKbw==}
     engines: {node: '>=16 || 14 >=14.17'}
     dev: false
 
@@ -414,7 +414,7 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       lru-cache: 9.1.1
-      minipass: 6.0.0
+      minipass: 6.0.1
     dev: false
 
   /picomatch@2.3.1:
@@ -426,8 +426,8 @@ packages:
     resolution: {integrity: sha512-77DZwxQmxKnu3aR542U+X8FypNzbfJ+C5XQDk3uWjWxn6151aIMGthWYRXTqT1E5oJvg+ljaa2OJi+VfvCOQ8w==}
     dev: true
 
-  /quickentity-script@2.0.1:
-    resolution: {integrity: sha512-DABQJ6ziyTeCkVT+HTeOs/bvJHxRI9DL2qIJx7PtEdSC58ixDPE0g6hOWGFjWI2h6QRCvXoInb+Vv7+jOTYfvQ==}
+  /quickentity-script@2.1.0:
+    resolution: {integrity: sha512-SdAZecbQ4aBNOdruFa5t8+0oVXrcFQi8LSPspS90HWwRL1TsNuKU1uQSKgxCFbhkYkctFv2rMrM1lKr33ZKRgA==}
     dependencies:
       md5: 2.3.0
     dev: false

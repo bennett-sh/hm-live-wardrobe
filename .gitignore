@@ -2,4 +2,3 @@
 /package-lock.json
 .releaserc
 node_modules
-/content.generated

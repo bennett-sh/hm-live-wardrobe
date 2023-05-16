@@ -1,10 +1,18 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "BSh.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
+	"id": "BSh.LiveWardrobe",
+	"name": "Live Wardrobe",
+	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
 	"authors": ["BSh"],
-	"contentFolders": ["content", "content.generated"],
-	"frameworkVersion": "2.25.1"
+	"contentFolders": ["content.generated/content"],
+	"localisedLines": {
+		"601F5CC1D3AEFD20": "UI_OPEN_WARDROBE"
+	},
+	"localisation": {
+		"english": {
+			"UI_OPEN_WARDROBE": "Open Wardrobe"
+		}
+	},
+	"frameworkVersion": "2.25.0"
 }
