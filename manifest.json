@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"id": "BSh.LiveWardrobe",
 	"name": "Live Wardrobe",
 	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
