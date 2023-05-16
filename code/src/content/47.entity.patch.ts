@@ -19,126 +19,6 @@ export async function create(patch: QNPatch, option?: string) {
 		}
 	})
 
-	let blendInActions = [
-		root.addChild({
-			...getClassPath("HM5FixedCamProfileEntity"),
-			properties: {
-				m_dtBlendIn: {
-					type: "float32",
-					value: 1
-				},
-				m_mTransform: {
-					type: "SMatrix43",
-					value: {
-						position: {
-							x: 0,
-							y: 0,
-							z: 0
-						},
-						rotation: {
-							x: 0,
-							y: 0,
-							z: 0
-						}
-					}
-				},
-				m_dtBlendOut: {
-					type: "float32",
-					value: 1.25
-				},
-				m_degFovY: {
-					type: "float32",
-					value: 30
-				},
-				m_stickLength: {
-					type: "float32",
-					value: 1.690000057220459
-				},
-				m_eidParent: {
-					type: "SEntityTemplateReference",
-					value: CommonRoots.Agent47
-				}
-			}
-		}),
-		root.addChild({
-			...getClassPath("HM5GameCamProfileEntity"),
-			properties: {
-				m_fPitchMaxOffset: {
-					type: "float32",
-					value: 20
-				},
-				m_fPitchMinOffset: {
-					type: "float32",
-					value: 20
-				},
-				m_fYawOffset: {
-					type: "float32",
-					value: 0
-				},
-				m_bAlignYawPitch: {
-					type: "bool",
-					value: true
-				},
-				m_fFOV: {
-					type: "float32",
-					value: 30
-				},
-				m_fYawBase: {
-					type: "float32",
-					value: -15
-				},
-				m_fPitchAngle: {
-					type: "float32",
-					value: 20
-				},
-				m_fBlendTime: {
-					type: "float32",
-					value: 1.25
-				},
-				m_fStickLength: {
-					type: "float32",
-					value: 1
-				},
-				m_fRadius: {
-					type: "float32",
-					value: 0
-				},
-				m_fProfileBlendTime: {
-					type: "float32",
-					value: 1.25
-				},
-				m_nPriority: {
-					type: "int32",
-					value: 100
-				},
-				m_fHeight: {
-					type: "float32",
-					value: 1.7999999523162842
-				},
-				m_bEnableAimAssist: {
-					type: "bool",
-					value: false
-				},
-				m_bEnablePitchLevelOut: {
-					type: "bool",
-					value: true
-				},
-				m_bPitchAnimation: {
-					type: "bool",
-					value: false
-				},
-				m_fYawAngle: {
-					type: "float32",
-					value: -15
-				},
-				m_fRadiusLeft: {
-					type: "float32",
-					value: 0
-				}
-			}
-		})
-	]
-
 	root.addChild({
 		...getPath(
 			"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_activator_singlepress.entitytemplate]"
@@ -337,8 +217,7 @@ export async function create(patch: QNPatch, option?: string) {
 							value: "eUIMenu_WardrobeMenu"
 						}
 					}
-				}),
-				BlendIn: blendInActions
+				})
 			}
 		}
 	})
