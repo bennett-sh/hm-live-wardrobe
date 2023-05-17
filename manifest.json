@@ -6,6 +6,65 @@
 	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
 	"authors": ["BSh"],
 	"contentFolders": ["content.generated/content"],
+	"options": [
+		{
+			"name": "Camera Switch",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/CamSwitch"],
+			"enabledByDefault": true,
+			"tooltip": "\"V\" on PC"
+		},
+		{
+			"name": "Drag/Drop Body",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/DragDropBody"],
+			"tooltip": "\"B\" on PC"
+		},
+		{
+			"name": "Instinct",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/InstinctMode"],
+			"tooltip": "\"Control\" on PC"
+		},
+		{
+			"name": "Reload",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/Reload"],
+			"tooltip": "\"R\" on PC"
+		},
+		{
+			"name": "Remote Action",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/RemoteAction"],
+			"tooltip": "\"Left Mouse Button\" on PC"
+		},
+		{
+			"name": "Sneak",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/SneakToggle"],
+			"tooltip": "\"C\" on PC"
+		},
+		{
+			"name": "Surrender",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/Surrender"],
+			"tooltip": "\"X\" on PC"
+		},
+		{
+			"name": "Disguise",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/TakeDisguise"],
+			"tooltip": "\"T\" on PC"
+		}
+	],
 	"localisedLines": {
 		"601F5CC1D3AEFD20": "UI_OPEN_WARDROBE"
 	},

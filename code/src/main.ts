@@ -70,9 +70,7 @@ async function makeFile(f: string) {
 			await patch.save(
 				join(
 					chunkFolder,
-					`${joinOr(mod.NAME_PREFIX, mod.NAME, "patch")}-${Math.round(Math.random() * 1000)
-						.toString()
-						.padStart(4, "0")}.entity.patch.json`
+					`${joinOr(mod.NAME_PREFIX, mod.NAME, "patch")}.entity.patch.json`
 				)
 			)
 		}
@@ -93,9 +91,7 @@ async function makeFile(f: string) {
 				await entity.save(
 					join(
 						chunkFolder,
-						`${joinOr(mod.NAME_PREFIX, mod.NAME, "entity")}-${Math.round(Math.random() * 1000)
-							.toString()
-							.padStart(4, "0")}.entity.json`
+						`${joinOr(mod.NAME_PREFIX, mod.NAME, "entity")}.entity.json`
 					)
 				)
 		}
