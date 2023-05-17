@@ -150,7 +150,7 @@ export async function create(patch: QNPatch, option?: string) {
 										position: {
 											x: 0,
 											y: -1,
-											z: 1.5
+											z: 1.25
 										},
 										rotation: {
 											x: 0,

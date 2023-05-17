@@ -97,9 +97,7 @@ async function makeFile(f: string) {
 				await repository.save(
 					join(
 						chunkFolder,
-						`${joinOr(mod.NAME_PREFIX, mod.NAME, "changes")}-${Math.round(Math.random() * 1000)
-							.toString()
-							.padStart(4, "0")}.repository.json`
+						`${joinOr(mod.NAME_PREFIX, mod.NAME, "changes")}.repository.json`
 					)
 				)
 		}
