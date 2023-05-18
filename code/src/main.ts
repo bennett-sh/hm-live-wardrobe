@@ -94,12 +94,7 @@ async function makeFile(f: string) {
 			const chunkFolder = join(CONTENT_FOLDER, joinOr(_option?.prefix, option, "content"), `chunk${mod.CHUNK ?? 0}`)
 			await mkdir(chunkFolder, { recursive: true })
 			if ((await mod.create(repository, option)) ?? true)
-				await repository.save(
-					join(
-						chunkFolder,
-						`${joinOr(mod.NAME_PREFIX, mod.NAME, "changes")}.repository.json`
-					)
-				)
+				await repository.save(join(chunkFolder, `${joinOr(mod.NAME_PREFIX, mod.NAME, "changes")}.repository.json`))
 		}
 	}
 
