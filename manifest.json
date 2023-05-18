@@ -71,6 +71,9 @@
 	"localisation": {
 		"english": {
 			"UI_OPEN_WARDROBE": "Open Wardrobe"
+		},
+		"german": {
+			"UI_OPEN_WARDROBE": "Umziehen"
 		}
 	},
 	"frameworkVersion": "2.25.1",
