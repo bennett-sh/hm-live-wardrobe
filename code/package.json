@@ -13,6 +13,7 @@
 		"dev": "concurrently \"pnpm run build:watch\" \"pnpm run start:watch\""
 	},
 	"devDependencies": {
+		"@biomejs/biome": "2.3.11",
 		"@types/node": "^20.2.1",
 		"concurrently": "^8.0.1",
 		"nodemon": "^2.0.22",

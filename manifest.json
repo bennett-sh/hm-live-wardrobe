@@ -1,73 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.2.0",
-	"id": "BSh.LiveWardrobe",
-	"name": "Live Wardrobe",
-	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
-	"authors": ["BSh"],
-	"contentFolders": ["content.generated/content"],
-	"options": [
-		{
-			"name": "Camera Switch",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/CamSwitch"],
-			"enabledByDefault": true,
-			"tooltip": "\"V\" on PC"
-		},
-		{
-			"name": "Drag/Drop Body",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/DragDropBody"],
-			"tooltip": "\"B\" on PC"
-		},
-		{
-			"name": "Instinct",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/InstinctMode"],
-			"tooltip": "\"Control\" on PC"
-		},
-		{
-			"name": "Reload",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/Reload"],
-			"tooltip": "\"R\" on PC"
-		},
-		{
-			"name": "Remote Action",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/RemoteAction"],
-			"tooltip": "\"Left Mouse Button\" on PC"
-		},
-		{
-			"name": "Sneak",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/SneakToggle"],
-			"tooltip": "\"C\" on PC"
-		},
-		{
-			"name": "Surrender",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/Surrender"],
-			"tooltip": "\"X\" on PC"
-		},
-		{
-			"name": "Disguise",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/TakeDisguise"],
-			"tooltip": "\"T\" on PC"
-		}
+	"authors": [
+		"BSh"
 	],
-	"localisedLines": {
-		"601F5CC1D3AEFD20": "UI_OPEN_WARDROBE"
-	},
+	"contentFolders": [
+		"content.generated/content"
+	],
+	"description": "This comfortable wardrobe is always there so 47 can follow the latest fashion trends while in a mission.",
+	"frameworkVersion": "2.33.33",
+	"id": "BSh.LiveWardrobe",
 	"localisation": {
 		"english": {
 			"UI_OPEN_WARDROBE": "Open Wardrobe"
@@ -76,6 +17,145 @@
 			"UI_OPEN_WARDROBE": "Umziehen"
 		}
 	},
-	"frameworkVersion": "2.26.1",
-	"updateCheck": "https://github.com/bennett-sh/hm-live-wardrobe/releases/latest/download/updates.json"
+	"localisedLines": {
+		"601F5CC1D3AEFD20": "UI_OPEN_WARDROBE"
+	},
+	"name": "Live Wardrobe",
+	"options": [
+		{
+			"contentFolders": [
+				"content.generated/CamSwitch"
+			],
+			"enabledByDefault": true,
+			"group": "Key",
+			"name": "Camera Switch",
+			"tooltip": "\"V\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/DragDropBody"
+			],
+			"group": "Key",
+			"name": "Drag/Drop Body",
+			"tooltip": "\"B\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/InstinctMode"
+			],
+			"group": "Key",
+			"name": "Instinct",
+			"tooltip": "\"Control\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Reload"
+			],
+			"group": "Key",
+			"name": "Reload",
+			"tooltip": "\"R\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/RemoteAction"
+			],
+			"group": "Key",
+			"name": "Remote Action",
+			"tooltip": "\"Left Mouse Button\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/SneakToggle"
+			],
+			"group": "Key",
+			"name": "Sneak",
+			"tooltip": "\"C\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Surrender"
+			],
+			"group": "Key",
+			"name": "Surrender",
+			"tooltip": "\"X\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/TakeDisguise"
+			],
+			"group": "Key",
+			"name": "Disguise",
+			"tooltip": "\"T\" on PC",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F8"
+			],
+			"group": "Key",
+			"name": "Direct F8",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F9"
+			],
+			"group": "Key",
+			"name": "Direct F9",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F10"
+			],
+			"group": "Key",
+			"name": "Direct F10",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F11"
+			],
+			"group": "Key",
+			"name": "Direct F11",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F12"
+			],
+			"group": "Key",
+			"name": "Direct F12",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		}
+	],
+	"updateCheck": "https://github.com/bennett-sh/hm-live-wardrobe/releases/latest/download/updates.json",
+	"version": "1.3.0"
 }

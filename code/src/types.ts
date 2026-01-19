@@ -6,7 +6,7 @@ export interface IOptionData {
 	resources: (string | IResource)[]
 }
 
-export type TOption = string | { prefix: string; name: string }
+export type TOption = string
 export type TResource = string | { from: string; to: string }
 export type TChunk =
 	| 0
