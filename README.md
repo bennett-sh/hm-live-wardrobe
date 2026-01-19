@@ -18,17 +18,17 @@ If Portable Chair didn't use the `smf-mod` template, a user on `1.0.0` would onl
 
 ### Other features
 
--   Automatic versioning
-    -   Versions of the mod are automatically zipped, releases are automatically made and the mod update JSON are automatically updated
-    -   Conventional commits mean that you don't have to do anything; any change you make to your mod can automatically be converted into a release with the versions all handled for you
-        -   This also means that your versions are fully compatible with Semantic Versioning, which improves the framework's ability to know how your mod has changed
-    -   Your mod's manifest will be edited for you; you don't have to set anything up yourself
--   Automatic formatting
-    -   Prettier is run on every release commit, and a pre-made configuration for it is included
--   LGPLv3 license
-    -   Mods created with this template are permissively licensed; anyone can alter your mod, but they have to give credit and provide a list of what they have changed
--   Automatic updating of `frameworkVersion`
-    -   Most mod developers don't bother updating this property; the template automatically brings it in line with the version your mod is actually being tested against
+- Automatic versioning
+  - Versions of the mod are automatically zipped, releases are automatically made and the mod update JSON are automatically updated
+  - Conventional commits mean that you don't have to do anything; any change you make to your mod can automatically be converted into a release with the versions all handled for you
+    - This also means that your versions are fully compatible with Semantic Versioning, which improves the framework's ability to know how your mod has changed
+  - Your mod's manifest will be edited for you; you don't have to set anything up yourself
+- Automatic formatting
+  - Prettier is run on every release commit, and a pre-made configuration for it is included
+- LGPLv3 license
+  - Mods created with this template are permissively licensed; anyone can alter your mod, but they have to give credit and provide a list of what they have changed
+- Automatic updating of `frameworkVersion`
+  - Most mod developers don't bother updating this property; the template automatically brings it in line with the version your mod is actually being tested against
 
 ### The benefits of Git/GitHub
 
@@ -70,18 +70,18 @@ If you're making a lot of trivial changes that you'd ordinarily call names like 
 
 To combine this advice with the last, you can work like this:
 
--   create a `next-release` branch
--   create a `new-feature-1` branch
--   make whatever commits you like on `new-feature-1`: "do half the work", "whoops, fix that"
--   squash and merge `new-feature-1` onto `next-release` under the commit `feat: new feature 1`
--   create an `improvement-whatever` branch
--   make whatever commits you like on `improvement-whatever`: "improve that part", "finish it off"
--   squash and merge `improvement-whatever` onto `next-release` under the commit `enhancement: some improvement`
--   standard merge `next-release` onto `main`
+- create a `next-release` branch
+- create a `new-feature-1` branch
+- make whatever commits you like on `new-feature-1`: "do half the work", "whoops, fix that"
+- squash and merge `new-feature-1` onto `next-release` under the commit `feat: new feature 1`
+- create an `improvement-whatever` branch
+- make whatever commits you like on `improvement-whatever`: "improve that part", "finish it off"
+- squash and merge `improvement-whatever` onto `next-release` under the commit `enhancement: some improvement`
+- standard merge `next-release` onto `main`
 
 The result of this would be a changelog like this:
 
--   New Features
-    -   new feature 1
--   Improvements
-    -   some improvement
+- New Features
+  - new feature 1
+- Improvements
+  - some improvement
